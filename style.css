@@ -1,0 +1,300 @@
+
+
+/* ---------------- Normal CSS ----------------- */
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    font-family: 'Assistant', sans-serif;
+    font-size: 16px;
+    color: #181818;
+    line-height: 23px;
+    font-weight: 400;
+}
+a:focus,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #181818;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    font-size: 20px;
+    font-weight: 600;
+}
+a.boxed-btn {
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    padding: 22px 50px;
+    border-radius: 50px;
+    margin-top: 15px;
+    text-align: center;
+    background: rgb(176,106,179);
+    background: -moz-linear-gradient(45deg,  rgba(176,106,179,1) 1%, rgba(165,106,183,1) 51%, rgba(85,104,214,1) 99%);
+    background: -webkit-linear-gradient(45deg,  rgba(176,106,179,1) 1%,rgba(165,106,183,1) 51%,rgba(85,104,214,1) 99%);
+    background: linear-gradient(45deg,  rgba(176,106,179,1) 1%,rgba(165,106,183,1) 51%,rgba(85,104,214,1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b06ab3', endColorstr='#5568d6',GradientType=1 );
+}
+.header-area{
+    border-bottom: 2px solid #eee;
+}
+.logo{
+display: inline-block;
+padding: 18px 10px;
+
+}
+.logo img {
+    height: 35px;
+    width: auto;
+    float: left;
+    padding-right: 5px;
+}
+.logo a{
+    font-size: 24px;
+    color: #181818;
+    font-weight: 600;
+}
+.mainmenu ul{
+    float: right;
+}
+.mainmenu ul li{
+    display: inline-block;
+    position: relative;
+}
+.mainmenu ul li a{
+    display: block;
+    padding: 25px 15px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #181818;
+
+}
+a.click-getin {
+    float: right;
+    font-size: 18px;
+    color:#181818;
+    display: block;
+    background:#f0f0f0;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.homepage-slide-area{
+    padding: 95px 0;
+}
+.slide-text{
+    margin-top: 85px;
+    font-size: 20px;
+}
+.slide-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.slide-text p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.homepage-slide-img{
+    margin-left: 12px;
+    
+}
+.homepage-slide-img img{
+    height: 100%;
+    width: 125%;
+    
+}
+.section-padding{
+    padding: 95px 0;
+}
+.background-bg{
+    background: #ddd;
+}
+.section-title{
+    margin-bottom: 100px;
+}
+.section-title h1{
+    font-size: 32px;
+}
+.single-icon-box{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+.single-icon-box h3{
+    padding: 10px 0;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.single-icon-box p{
+    line-height: 26px;
+    
+}
+.work-icon img {
+    width: auto;
+    height: 55px;
+}
+.mt-65{
+    margin-top: 65px;
+}
+/* -------------- Our Skill Area Start Css */
+.single-skill-bar{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+._78-skillbar{
+    position: relative;
+}
+._83-skillbar{
+    position: relative;
+}
+._76-skillbar{
+    position: relative;
+}
+span.skill-count-no{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    font-size: 42px;
+    font-weight: 700;
+    color: #333;
+    height: 260px;
+    width: 100%;
+    line-height: 50px;
+    margin-top: -25px;
+}
+.single-skill-bar p{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #181818;
+}
+
+.wht h2 {
+    color: #fff;
+}
+.gradian-bg{
+
+
+
+
+    background: rgb(176,106,179);
+    background: -moz-linear-gradient(45deg,  rgba(176,106,179,1) 1%, rgba(165,106,183,1) 51%, rgba(85,104,214,1) 99%);
+    background: -webkit-linear-gradient(45deg,  rgba(176,106,179,1) 1%,rgba(165,106,183,1) 51%,rgba(85,104,214,1) 99%);
+    background: linear-gradient(45deg,  rgba(176,106,179,1) 1%,rgba(165,106,183,1) 51%,rgba(85,104,214,1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b06ab3', endColorstr='#5568d6',GradientType=1 );
+    
+
+}
+.single-brand-icon img {
+    display: inline-block;
+    height: auto;
+    width: 175px;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+.single-brand-icon{
+    margin-top: 0;
+}
+.protfolio-bg{
+    background: #f1f3f6;
+}
+/* Carousel css */
+.owl-dots {
+    text-align: center;
+    margin-top: 30px;  
+}
+.owl-dots button.owl-dot{
+    display: inline-block;
+    margin: 5px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #eee;
+    
+}
+.owl-dots button.active{
+    background: #b06ab3;
+}
+.single-protfolio-item{
+    padding: 0px 30px;
+}
+.single-protfolio-item h1{
+    font-size: 32px;
+    color: #818286;
+    font-weight: 700;
+}
+.single-protfolio-item h1 strong.green{
+    color: green;
+    font-size: 34px;
+}
+.single-protfolio-item  h1 span{
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+    padding-left: 40px;
+    margin-left: 15px;
+}
+
+/* ********************************* */
+.single-services-box{
+    float: right;
+    margin-bottom: 30px;
+}
+.services-icon img {
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    width: auto;
+    height: 112px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+.single-services-box h3 {
+    font-size: 22px;
+    color:#181818;
+    margin: 10px;
+    padding: 0px;
+
+}
+
+a.click-btn {
+    color:#5568d6;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+}
+a.click-btn i.fa{
+    margin-left: 15px;
+    
+}
+.footer-area p {
+
+    margin-top: 8px;
+    letter-spacing: 2px;
+
+}
+
+.footer-area {
+    background:#2B2B2B;
+    color: #f1f3f6;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 0;
+}
+.footer-area p {
+    margin-top: 8px;
+}
